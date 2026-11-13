@@ -1,0 +1,40 @@
+@import "tailwindcss";
+
+:root {
+  font-family: "Inter", sans-serif;
+  color: #30372f;
+  background-color: #faf8f3;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+}
+
+button {
+  cursor: pointer;
+}
+
+* {
+  box-sizing: border-box;
+}
+:root {
+  --wood-light: #C5A880;
+  --wood-medium: #A98467;
+  --wood-dark: #795C43;
+  --forest-green: #244736;
+  --warm-cream: #FAF8F3;
+}
+
+.wood-card {
+  background: linear-gradient(
+    135deg,
+    #F1E5D5 0%,
+    #E2CCB3 100%
+  );
+  border: 1px solid #D5BDA3;
+}
+
+.wood-accent {
+  color: var(--wood-dark);
+}
